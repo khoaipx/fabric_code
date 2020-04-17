@@ -1,0 +1,2 @@
+wget https://open-mmlab.oss-cn-beijing.aliyuncs.com/mmdetection/models/cascade_rcnn_r50_fpn_20e_20181123-db483a09.pth -O ../data/pretrained/cascade_rcnn_r50_fpn_20e_20181123-db483a09.pth
+python transorfarm_concatenate_model.py

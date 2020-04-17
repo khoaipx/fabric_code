@@ -38,6 +38,10 @@ class Fabric2COCO:
             assert img_anno["name"].unique()[0] == img_name
 
             img_path=os.path.join(img_dir,img_name)
+
+            if not os.path.exists(img_path):
+                continue
+
             img = Image.open(img_path)
             w, h = img.size
             isvailud = False

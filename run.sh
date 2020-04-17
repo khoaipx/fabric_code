@@ -6,3 +6,4 @@ python inference/json2submit1.py
 python inference/json2submit3.py
 wait
 python inference/merger_json2.py
+

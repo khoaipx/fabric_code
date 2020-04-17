@@ -39,6 +39,8 @@ class Fabric2COCO:
 
             img_path=os.path.join(img_dir,img_name)
             # img = cv2.imread(img_path)
+            if not os.path.exists(img_path):
+                continue
             img = Image.open(img_path)
             #h, w, _ =img.shape
             # h, w = 1696, 4096

@@ -24,3 +24,4 @@ python publish_model.py ../data/work_dirs/cascade_rcnn_r50_fpn_400/latest.pth ..
 
 
 
+
